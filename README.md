@@ -49,6 +49,6 @@ $instancia = Singleton::getInstancia();
 $novaInstancia = Singleton::getInstancia();
 
 if ($instancia === $novaInstancia) {
-  echo 'As instâncias	são	exatamente as mesmas!';
+  echo 'As instâncias são exatamente as mesmas!';
 }
 ```
